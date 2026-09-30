@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nishtha Kukreja — Builder, CS Student</title>
+<meta name="description" content="Portfolio of Nishtha Kukreja — AI, software, and data-driven products that turn ideas into useful experiences." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Skip link for accessibility -->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-mark" aria-label="Nishtha Kukreja, home">NK</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about" data-section="about">About</a>
+      <a href="#experience" data-section="experience">Experience</a>
+      <a href="#projects" data-section="projects">Projects</a>
+      <a href="#skills" data-section="skills">Skills</a>
+      <a href="#contact" data-section="contact">Contact</a>
+    </nav>
+    <a href="#contact" class="nav-cta">Let's talk</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero-scene" id="heroScene" aria-hidden="true">
+      <canvas id="heroCanvas"></canvas>
+      <img src="assets/hero-fallback.svg" alt="" class="hero-fallback" id="heroFallback" />
+    </div>
+
+    <div class="hero-content">
+      <p class="eyebrow reveal" data-reveal>CS STUDENT • BUILDER • PROBLEM SOLVER</p>
+      <h1 class="hero-title reveal" data-reveal>Hi, I'm Nishtha.</h1>
+      <p class="hero-sub reveal" data-reveal>I build AI, software, and data-driven products that turn ideas into useful experiences.</p>
+      <p class="hero-line reveal" data-reveal>Curious about the intersection of AI, engineering, and products people actually want to use.</p>
+      <div class="hero-ctas reveal" data-reveal>
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-copy">
+        <h2 class="section-title">About</h2>
+        <p>I'm a Computer Science student at the University of South Florida who likes turning half-formed ideas into things that actually run — AI systems, data pipelines, and interfaces people can trust. Most recently I spent a summer building AI-enabled internal tools at Nucor, and outside of internships I split my time between campus leadership, side projects, and learning whatever's next.</p>
+        <p class="about-focus"><span>Focus areas:</span> applied AI &amp; ML, full-stack development, data systems.</p>
+        <p class="about-focus"><span>Currently learning:</span> multi-agent orchestration patterns and production RAG.</p>
+        <div class="about-links">
+          <a href="#" class="text-link" id="resumeLink">Resume ↗</a>
+          <a href="#" class="text-link" id="linkedinLink">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="about-visual" aria-hidden="true">
+        <div class="glass-panel about-panel">
+          <div class="panel-shape shape-a"></div>
+          <div class="panel-shape shape-b"></div>
+          <div class="panel-shape shape-c"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="experience" id="experience">
+    <div class="section-inner">
+      <h2 class="section-title">Experience</h2>
+      <p class="section-sub">Internships, campus work, and technical leadership.</p>
+
+      <div class="card-grid experience-grid">
+
+        <article class="card exp-card" data-reveal>
+          <div class="card-top">
+            <div>
+              <h3 class="card-org">Nucor</h3>
+              <p class="card-role">AI / Software Engineering Internship</p>
+            </div>
+            <span class="pill pill-internship">Internship</span>
+          </div>
+          <p class="card-dates">Summer 2025</p>
+          <ul class="card-bullets">
+            <li>Built AI-enabled internal applications using Azure OpenAI / AI Foundry, multi-agent orchestration, RAG, and Power BI semantic models.</li>
+            <li>Contributed to Project Raven, supporting migration from Crow to Databricks with ETL, backend orchestration, and analytics workflows.</li>
+            <li>Worked on predictive maintenance and operational-efficiency use cases, including safer maintenance timing for shredder hammers.</li>
+          </ul>
+        </article>
+
+        <article class="card exp-card" data-reveal>
+          <div class="card-top">
+            <div>
+              <h3 class="card-org">USF Student Health &amp; Wellness Center</h3>
+              <p class="card-role">Web / Digital Experience</p>
+            </div>
+            <span class="pill pill-campus">Campus Work</span>
+          </div>
+          <p class="card-dates">2025 — Present</p>
+          <ul class="card-bullets">
+            <li>Maintained and improved web content across 15+ updates while supporting high site availability.</li>
+            <li>Helped grow social reach and engagement through digital campaigns, service promotion, and student-facing content.</li>
+            <li>Created accessible, clear digital experiences for campus health services and outreach.</li>
+          </ul>
+        </article>
+
+        <article class="card exp-card" data-reveal>
+          <div class="card-top">
+            <div>
+              <h3 class="card-org">Google Developer Student Clubs / SASE</h3>
+              <p class="card-role">Technical + Student Leadership</p>
+            </div>
+            <span class="pill pill-leadership">Leadership</span>
+          </div>
+          <p class="card-dates">2024 — Present</p>
+          <ul class="card-bullets">
+            <li>Led or supported technical workshops, student programs, mentorship, outreach, and industry-facing initiatives.</li>
+            <li>Built hands-on learning experiences spanning Python, Arduino, Azure, and software development.</li>
+            <li>Worked across technical, marketing, sponsorship, and community teams.</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="projects" id="projects">
+    <div class="section-inner">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-sub">Selected technical work with demos and code.</p>
+
+      <div class="card-grid projects-grid">
+
+        <article class="card project-card" data-reveal>
+          <div class="project-media" data-tilt>
+            <div class="media-placeholder grad-a">
+              <span>DesignStyle.co</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">DesignStyle.co</h3>
+            <p class="project-desc">Personalized product discovery and recommendation web app spanning 500+ products across the US and India, built for fast, preference-driven discovery — early testing showed a clear lift in relevant matches within the first few swipes.</p>
+            <div class="tag-row">
+              <span class="tag">Django</span>
+              <span class="tag">React</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small btn-primary project-demo-link">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project-card" data-reveal>
+          <div class="project-media" data-tilt>
+            <div class="media-placeholder grad-b">
+              <span>Facial Recognition Pipeline</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Facial Recognition Pipeline</h3>
+            <p class="project-desc">GPU-accelerated facial recognition system tuned for speed and scale — around 95% accuracy on a curated test set, a sub-200ms latency target, and tested support for 100+ concurrent GPU sessions.</p>
+            <div class="tag-row">
+              <span class="tag">TensorFlow</span>
+              <span class="tag">CUDA</span>
+              <span class="tag">OpenCV</span>
+              <span class="tag">Flask</span>
+              <span class="tag">Azure</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small btn-primary project-demo-link">Watch Demo</a>
+              <a href="#" class="btn btn-small btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project-card" data-reveal>
+          <div class="project-media" data-tilt>
+            <div class="media-placeholder grad-c">
+              <span>Market Prediction Dashboard</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Stock Prediction / Market Dashboard</h3>
+            <p class="project-desc">Data-driven market analysis and prediction dashboard built around long-horizon Microsoft market data, with interactive analytics and forecasting workflows.</p>
+            <div class="tag-row">
+              <span class="tag">Python</span>
+              <span class="tag">Data Analysis</span>
+              <span class="tag">Visualization</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small btn-primary project-demo-link">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project-card" data-reveal>
+          <div class="project-media" data-tilt>
+            <div class="media-placeholder grad-d">
+              <span>Autonomous Arduino Robot</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Autonomous Arduino Robot</h3>
+            <p class="project-desc">Sensor-driven obstacle-avoidance robot that reads onboard IR and ultrasonic sensors to detect obstacles and change direction autonomously in real time.</p>
+            <div class="tag-row">
+              <span class="tag">Arduino C/C++</span>
+              <span class="tag">IR Sensors</span>
+              <span class="tag">Ultrasonic</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small btn-primary project-demo-link">Watch Demo</a>
+              <a href="#" class="btn btn-small btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="skills" id="skills">
+    <div class="section-inner">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <div class="chip-row">
+            <span class="chip">Python</span>
+            <span class="chip">JavaScript / TypeScript</span>
+            <span class="chip">Java</span>
+            <span class="chip">C / C++</span>
+            <span class="chip">SQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>AI / Data</h3>
+          <div class="chip-row">
+            <span class="chip">Azure OpenAI</span>
+            <span class="chip">RAG</span>
+            <span class="chip">Multi-agent orchestration</span>
+            <span class="chip">TensorFlow</span>
+            <span class="chip">Databricks</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Web &amp; Systems</h3>
+          <div class="chip-row">
+            <span class="chip">React</span>
+            <span class="chip">Django</span>
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">Flask</span>
+            <span class="chip">Power BI</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Hardware &amp; Tools</h3>
+          <div class="chip-row">
+            <span class="chip">Arduino</span>
+            <span class="chip">OpenCV</span>
+            <span class="chip">CUDA</span>
+            <span class="chip">Git</span>
+            <span class="chip">Azure</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="section-inner contact-inner">
+      <div class="contact-visual" aria-hidden="true">
+        <div class="orb"></div>
+      </div>
+      <h2 class="section-title">Let's build something.</h2>
+      <p class="contact-sub">Open to internships, new grad roles, and interesting collaborations. The fastest way to reach me is email.</p>
+      <div class="contact-links">
+        <a href="mailto:hello@example.com" class="btn btn-primary" id="emailLink">Email Me</a>
+        <a href="#" class="text-link" id="contactLinkedin">LinkedIn ↗</a>
+        <a href="#" class="text-link" id="contactGithub">GitHub ↗</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <span>© <span id="year"></span> Nishtha Kukreja</span>
+    <span>Built with Next.js-ready markup, Three.js, and a lot of coffee.</span>
+  </div>
+</footer>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+  }
+}
+</script>
+<script type="module" src="js/hero-scene.js"></script>
+<script src="js/script.js" defer></script>
+</body>
+</html>
